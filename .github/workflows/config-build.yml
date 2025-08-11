@@ -10,7 +10,7 @@ jobs:
   generate-config:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Import Merge-SysmonXml.ps1 and generate config
         run: | 
           Import-Module .\Merge-SysmonXml.ps1
